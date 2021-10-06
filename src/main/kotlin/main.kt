@@ -1,6 +1,6 @@
-
+import searching.binarySearch
 
 fun main() {
-    Pyramids.fullPyramid(5)
-    Pyramids.stepPyramid(5)
+
+    println(listOf('a', 'b', 'c').binarySearch('d'))
 }
